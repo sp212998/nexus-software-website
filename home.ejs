@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+          <h1 class="feedBack-head">Your FeedBack is important to us</h1> 
+  <div class="whoel">
+    <div class="feedForm">
+        <% if (message) { %>
+            <p class="message"><%= message %></p>
+        <% } %>
+        <form action="/home" method="post" class="Forms">
+            <p class="context">user-Name:</p>
+            <input type="text" id="login" name="userName" class="userName" required="true" placeholder="userName">
+           <p>feed-Back:</p>
+           <div class="field">
+            <textarea type="text" id="feed" name="feedBack" class="feedBack" required="true" placeholder="Message" cols="50" ></textarea>
+            <button type="button" id="clearFeedback" class="field-button">clear-FeedBack</button>
+           </div>
+           
+            <button type="submit" class="submit-button"> submit</button>
+        </form>
+        
+    </div>
+ 
+  </div>   
+   <script>
+    document.getElementById('clearFeedback').addEventListener('click', function() {
+    // Clear the value of the feedback input field
+    document.getElementById('feed').value = '';
+});
+   </script>
+</body>
+</html>

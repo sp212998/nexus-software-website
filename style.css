@@ -1,0 +1,108 @@
+.Forms{
+height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: space-between;
+   
+}
+
+
+.userName{
+width: 50%;
+border: 0cap;
+border-bottom: 1px solid black;
+outline: none;
+font-family: sans-serif;
+}
+
+.feedBack{
+    width: 50%;
+border: 0cap;
+border-bottom: 1px solid black;
+  height: 4rem;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.submit-button{
+    width: 20%;
+    height: 12%;
+    color: whitesmoke;
+    font-family: sans-serif;
+    background-color: blueviolet;
+}
+.submit-button:hover{
+    background-color: rgba(137, 43, 226, 0.762);
+}
+
+.message{
+    font-family: sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.feedBack-head{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Forms p{
+    font-family: sans-serif;
+}
+.field{
+    width: 50%;
+}
+
+.feedBack{
+    width: 100%;
+}
+
+.field-button{
+    color:aliceblue;
+    background-color: black;
+    height: 15px;
+    font-size: 10px;
+}
+
+.car{
+    margin-top: 5px;
+}
+
+.img1{
+    position: absolute;
+   object-fit: contain;
+   
+}
+
+.carousel-inner{
+    height: 30rem;
+}
+
+.inns{
+    position: relative;
+ top: 5rem;
+ left: 10%;
+}
+
+.inns p{
+    font-family:   sans-serif;
+    font-size: 400%;
+    color: white;
+}
+
+.inns button{
+    height: 100%;
+    width: 20%;
+    border: 1px solid  blueviolet;
+    border-radius: 5%;
+    font-family: sans-serif;
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+#btq:hover{
+    width: 30%;
+    transition:750ms;
+}
